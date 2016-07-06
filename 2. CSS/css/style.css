@@ -248,7 +248,7 @@ section[id="Cakes & Bakes"] span.star1:before, span.star2:before, span.star3:bef
     font-size: 12px;
 
 }
-section[id="Jamies's Kitchen"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+section[id="Jamies's Kitchen"] span.star1:before, span.star2:before, span.star3:before, span.star4:before {
     font-family: 'icomoon';
     content: '\e9d9';
     color: rgb(255,171,0);
@@ -261,6 +261,88 @@ section[id="Jamies's Kitchen"] span.star5:before{
     font-size: 12px;
 }
 
+section[id="Inexpensive Family Meals"] span.star1:before, span.star2:before, span.star3:before, span.star4:before{
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Inexpensive Family Meals"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d7';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+
+section[id="Paleo Slow Cooking"] span.star1:before, span.star2:before, span.star3:before, span.star4:before{
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Paleo Slow Cooking"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d8';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Cook Like an Italian"] span.star1:before, span.star2:before, span.star3:before, span.star4:before{
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Cook Like an Italian"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d7';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Suneeta Vaswani"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+
+}
+section[id="Jamie Does"] span.star1:before, span.star2:before, span.star3:before, span.star4:before{
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Jamie Does"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d7';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Jamie's itely"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+
+}
+section[id="Vegetables Cookbook"] span.star1:before, span.star2:before, span.star3:before{
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+
+}
+section[id="Vegetables Cookbook"] span.star4:before{
+    font-family: 'icomoon';
+    content: '\e9d8';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Vegetables Cookbook"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d7';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
 article p:before{
     font-family: 'icomoon';
     content: '\e901';
