@@ -1,0 +1,269 @@
+body {
+   background-image: url("Images/body_bg.jpg");
+   font-family: open_sanslight;
+   padding: 10px 10px;
+}
+header{
+   background-color: #33334d;
+    font-family: open_sansregular;
+}
+#A2_headerLogo1{
+   position: relative;
+   width:10%;
+   height:100%;
+
+}
+
+#A2_headerSec1{
+   float: right;
+}
+
+#A2_headerNav{
+   float:right;
+}
+
+#A2_headerSec1{
+   float: right;
+   background:rgb(22,164,250);
+   width: 150px;
+   height:35px;
+}
+#A2_userImg {
+   border-radius: 50%;
+   float:left;
+}
+#A2_headerUserName {
+   color: rgb(255,255,255);
+   float:left;
+   position:relative;
+   left: 5px;
+   bottom: 5px;
+}
+
+.A2_headerSection{
+   float:right;
+   color:rgb(111, 118, 146);
+   padding:10px 10px 10px 10px;
+}
+
+#A2_bodyNav{
+   background:rgb(31,38,56);
+   width:200px;
+   height:900px;
+   float:left;
+   line-height:30px; "
+   color: rgb(117,124,150);
+}
+#A2_AddABook_Sec{
+   padding: 30px;
+   color: #808080;
+}
+#A2_AddABook_Button{
+   display:block;
+   background:rgb(242,121,90);
+   border-radius: 4px;
+   border: none;
+   font-size:14px;
+   color: whitesmoke;
+   text-align: left;
+   padding: 10px;
+}
+#A2_faPlus{
+    font-size: 14px;
+   color: whitesmoke;
+}
+.A2_Nav{
+   padding: 5px;
+   color: rgb(117,124,150);
+   font-size: 16px;
+}
+.A2_Nav_ul{
+   font-size: 16px;
+   padding: 20px;
+   list-style-type:none;
+}
+
+.A2_Nav1_ul_li{
+   margin: 5px;
+}
+.A2_Nav2_ul {
+   color: rgb(117, 124, 150);
+   font-size: 15px;
+   padding-left: 20px;
+   position: relative;
+}
+.A2_Nav2_ul_li{
+   margin: 15px;
+}
+#books{
+   display: block;
+   padding-left:30px;
+   background: white;
+   height: 900px;
+
+}
+#books_sec1{
+   display: block;
+   background: rgb(238,241,248);
+   color: rgb(69,77,98);
+   margin-left: 150px;
+   padding-left: 20px;
+}
+#books_sec1_1 {
+   display: block;
+   padding:20px;
+   font-size: 30px;
+   position: relative;
+   text-align: left;
+
+}
+#search{
+   float: right;
+   width:300px;
+   height:30px;
+   margin-right: 50px;
+   font-size: 12px;
+   border-radius: 15px;
+}
+
+#books_nav1{
+   display: block;
+   padding:5px 5px 5px 20px;
+   position: relative;
+   text-align: left
+}
+
+.BooksNav{
+   display: inline-block;
+   padding: 3px 4px;
+   border-radius: 8px;
+   color: rgb(117, 124, 150);
+}
+.BooksNav ::selection {
+   border-radius: 8px;
+   background-color: lightsteelblue;
+   color: white;
+}
+.article{
+   line-height: 130%;
+   font-size: 14px;
+}
+#booksSection{
+   margin-left: 180px;
+   position: relative;
+
+}
+.bookTableField{
+   text-align: left;
+
+}
+td img{
+    padding: 5px 5px;
+}
+td section{
+    color:rgb(106,109,126);
+}
+.bookName{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+.author{
+    font-size: small;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+li[id="NowReading"]:before{
+    font-family: 'icomoon';
+    content: '\e900';
+    padding-right: 10px;
+}
+
+li[id="Browse"]:before{
+    font-family: 'icomoon';
+    content:  "\e905";
+    padding-right: 10px;
+}
+li[id="FavouriteBooks"]:before{
+     font-family: 'icomoon';
+    content: '\e9d9';
+    padding-right: 10px;
+
+}
+
+li[id="BuyBooks"]:before{
+    font-family: 'icomoon';
+    content: "\e908";
+    padding-right: 10px;
+}
+
+li[id="Wishlist"]:before{
+    font-family: 'icomoon';
+    content: "\e906";
+    padding-right: 10px;
+}
+
+li[id="History"]:before{
+    font-family: 'icomoon';
+    content: '\e901';
+    padding-right: 10px;
+}
+li[id="MustReadTitles"]:before{
+    font-family: 'icomoon';
+    content: '\e904';
+    padding-right: 10px;
+    color: rgb(230,76,102);
+
+}
+li[id="BestOfList"]:before {
+    font-family: 'icomoon';
+    content: '\e904';
+    padding-right: 10px;
+    color: orange;
+}
+li[id="ClassicNovels"]:before {
+    font-family: 'icomoon';
+    content: '\e904';
+    padding-right: 10px;
+    color: deepskyblue;
+}
+li[id="NonFiction"]:before {
+    font-family: 'icomoon';
+    content: '\e904';
+    padding-right: 10px;
+    color:rgb(82,83,139) ;
+}
+section[id="Jewels of Nizam"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+
+}
+section[id="Cakes & Bakes"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+
+}
+section[id="Jamies's Kitchen"] span.star1:before, span.star2:before, span.star3:before, span.star4:before, span.star5:before {
+    font-family: 'icomoon';
+    content: '\e9d9';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+section[id="Jamies's Kitchen"] span.star5:before{
+    font-family: 'icomoon';
+    content: '\e9d8';
+    color: rgb(255,171,0);
+    font-size: 12px;
+}
+
+article p:before{
+    font-family: 'icomoon';
+    content: '\e901';
+    padding-right: 10px;
+
+}
