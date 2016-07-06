@@ -343,6 +343,15 @@ section[id="Vegetables Cookbook"] span.star5:before{
     color: rgb(255,171,0);
     font-size: 12px;
 }
+span[id="footer_item1"]:before{
+    font-family: 'icomoon';
+    content: "\e994";
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+
 article p:before{
     font-family: 'icomoon';
     content: '\e901';
